@@ -1,5 +1,5 @@
-# Season of Vegan
+# Season of The Vegan
 
-Sourcecode for the Season Of Vegan website
+Sourcecode for the Season Of The Vegan website
 
 NextJS & NetlifyCms

@@ -1,8 +1,8 @@
 {
-  "name": "season-of-vegan",
+  "name": "season-of-the-vegan",
   "version": "1.0.0",
   "private": true,
-  "description": "Sourcecode for the Season Of Vegan website",
+  "description": "Sourcecode for the Season Of The Vegan website",
   "scripts": {
     "dev": "next",
     "build": "next build",
