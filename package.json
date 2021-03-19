@@ -1,0 +1,26 @@
+{
+  "name": "season-of-vegan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sourcecode for the Season Of Vegan website",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "author": "Luke Storry",
+  "dependencies": {
+    "@types/webpack-env": "^1.16.0",
+    "frontmatter-markdown-loader": "^2.0.0",
+    "netlify-cms-app": "^2.14.30",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
+  }
+}
