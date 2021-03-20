@@ -1,8 +1,27 @@
 ---
-title: Test 1
+title: Victoria Sponge
 date: 2020-03-19T12:34:56.789Z
-thumbnail: image.jpg
+thumbnail: victoria-sponge.jpg
 ---
-## Test subtitle
 
-blah blah
+## Batter
+
+- mix stuff in a bowl
+
+## Bake
+
+- make the oven hot
+- put the batter in two cake dishes
+- put in oven
+- wait 20ish mins
+- take out (important)
+
+## Filling
+
+- whip up some icing sugar and coconut milk
+- add jam
+- yum
+
+## Assembly
+
+- make a jam sandwich out of the two cakes

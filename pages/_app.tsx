@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
+  {/* TODO split into layout and set up head https://github.com/vercel/next-learn-starter/blob/master/demo/components/layout.js */}
     <nav>
       <Link href={'/'}>
         <a>Home</a>

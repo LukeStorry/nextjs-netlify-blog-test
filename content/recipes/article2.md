@@ -1,7 +1,10 @@
 ---
-title: Article 2
+title: Cashew nut "quiche"
 date: 2020-02-11T12:34:56.789Z
-thumbnail: /static/img/image2.jpg
+thumbnail: quiche.jpg
 ---
 
-content
+ - make pastry
+ - mash up some cashews 
+-  put cashews in pastry
+-  toppings?
