@@ -16,9 +16,9 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'Blog'
-    name: 'blog'
-    folder: 'content/blogPosts'
+  - label: 'Recipes'
+    name: 'recipes'
+    folder: 'content/recipes'
     create: true
     slug: '{{slug}}'
     fields:

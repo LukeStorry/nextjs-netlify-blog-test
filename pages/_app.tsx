@@ -5,13 +5,10 @@ const App = ({ Component, pageProps }: AppProps) => (
   <>
     <nav>
       <Link href={'/'}>
-        <a>home</a>
+        <a>Home</a>
       </Link>
-      <Link href={'/blog'}>
-        <a>blog</a>
-      </Link>
-      <Link href={'/about'}>
-        <a>about</a>
+      <Link href={'/recipes'}>
+        <a>Recipes</a>
       </Link>
     </nav>
     <main>

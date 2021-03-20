@@ -2,12 +2,14 @@
 /// <reference types="next/types/global" />
 
 interface Attributes {
-    thumbnail:string,
-    title:string,
-//   [key: string]: string | string[] | {}[];
+  title: string;
+  date: string;
+  thumbnail: string;
+  // html: string; // unused but there automatically
 }
-interface PostProps {
-  blogpost: { attributes: Attributes; content: React.FC<Attributes> };
+interface RecipeProps {
+  attributes: Attributes;
+  content: React.FC<Attributes>;
 }
 
 declare module '*.md' {
