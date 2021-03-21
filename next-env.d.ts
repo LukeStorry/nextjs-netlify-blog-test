@@ -3,6 +3,7 @@
 
 interface Attributes {
   title: string;
+  description: string;
   date: string;
   thumbnail: string;
   // html: string; // unused but there automatically

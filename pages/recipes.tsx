@@ -8,11 +8,12 @@ interface Props {
 
 const Page: NextPage<Props> = ({ recipes }) => (
   <div>
-    {recipes.map((recipe, i) => (
-      <Link href={`recipes/${recipe.slug}`} key={i}>
+    {recipes.map(({ slug, attributes: { title, description, thumbnail } }) => (
+      <Link href={`recipes/${slug}`} key={slug}>
         <a>
-          <Image src={`/img/${recipe.attributes.thumbnail}`} layout="responsive" width="800" height="400" alt="" />
-          <h2>{recipe.attributes.title}</h2>
+          <Image src={`/img/${thumbnail}`} layout="responsive" objectFit="scale-down" width="600" height="400" alt="" />
+          <h2>{title}</h2>
+          {description && <p>{description}</p>}
         </a>
       </Link>
     ))}
