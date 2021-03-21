@@ -1,14 +1,13 @@
 import { useEffect } from 'react';
 
-import ArticlePreview from '../components/ArticlePreview';
+import RecipePreview from '../components/RecipePreview';
 
 const Admin = () => {
   useEffect(() => {
     (async () => {
       const CMS = (await import('netlify-cms-app')).default;
       CMS.init();
-
-      CMS.registerPreviewTemplate('article', ArticlePreview);
+      CMS.registerPreviewTemplate('recipes', RecipePreview);
     })();
   }, []);
 
