@@ -25,7 +25,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image', allow_multiple: false, required: false }
       - { label: 'Prep Time (mins)', name: 'prep_time', widget: 'number', value_type: 'int', min: 0, max: 420 }
       - { label: 'Cook Time (mins)', name: 'cook_time', widget: 'number', value_type: 'int', min: 0, max: 420 }
       - {
@@ -41,5 +41,4 @@ collections:
           widget: 'markdown',
           buttons: ['bulleted-list', 'heading-five', 'bold', 'italic', 'link'],
           editor_components: ['image'],
-
         }

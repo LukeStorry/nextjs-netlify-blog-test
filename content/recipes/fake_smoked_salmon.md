@@ -1,7 +1,7 @@
 ---
 title: Fake Smoked Salmon
 description: Made from carrots & seaweed, it's great on bagels!
-thumbnail: /public/img/sal.jpg
+thumbnail: /img/sal.jpg
 prep_time: 120
 cook_time: 12
 ingredients: |2

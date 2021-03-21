@@ -2,7 +2,6 @@
 title: Victoria Sponge
 date: 2020-03-19T12:34:56.789Z
 description: yummy cake
-thumbnail: victoria-sponge.jpg
 prep_time: 38
 cook_time: 30
 ingredients: |-

@@ -9,11 +9,11 @@ const Page: NextPage<Props> = ({ recipes }) => (
   <div>
     {recipes.map(({ slug, attributes: { title, description, thumbnail } }) => (
       <Link href={`recipes/${slug}`} key={slug}>
-        <a>
-          <img src={`/img/${thumbnail}`} width="600" height="400" alt="" />
+        <div style={{ border: '1px black solid' }}>
           <h2>{title}</h2>
+          {thumbnail && <img src={thumbnail} width="600" height="400" alt="" />}
           {description && <p>{description}</p>}
-        </a>
+        </div>
       </Link>
     ))}
   </div>

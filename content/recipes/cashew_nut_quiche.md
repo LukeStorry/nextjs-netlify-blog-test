@@ -1,7 +1,7 @@
 ---
 title: Cashew nut "quiche"
 date: 2020-02-11T12:34:56.789Z
-thumbnail: /public/img/quiche.jpg
+thumbnail: /img/quiche.jpg
 prep_time: 10
 cook_time: 32
 ingredients: |

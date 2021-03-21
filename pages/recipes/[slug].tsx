@@ -1,18 +1,12 @@
 import { NextPage } from 'next';
 
-const Post: NextPage<RecipeProps> = ({ content, attributes: { thumbnail, title } }) => (
+const Post: NextPage<RecipeProps> = ({ content, attributes: { thumbnail, title }, ...rest }) => (
   <article>
     <h1>{title}</h1>
-    <img src={thumbnail} />
+    <img src={thumbnail} height="40" />
     {content}
-    <style jsx>{`
-      article {
-        margin: 0 auto;
-      }
-      h1 {
-        text-align: center;
-      }
-    `}</style>
+
+    <pre>{JSON.stringify(rest, null, 2)}</pre>
   </article>
 );
 
@@ -29,7 +23,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const recipeData = await import(`../../content/recipes/${slug}.md`);
-  return { props: { ...recipeData } };
+  return { props: { ...recipeData, thumbnail: recipeData.thumbnail ?? null } };
 }
 
 export default Post;

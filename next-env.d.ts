@@ -4,9 +4,12 @@
 interface Attributes {
   title: string;
   description: string;
-  date: string;
   thumbnail: string;
-  // html: string; // unused but there automatically
+  prep_time: int;
+  cook_time: string;
+  ingredients: string;
+
+  html: string; // unusure
 }
 interface RecipeProps {
   attributes: Attributes;
