@@ -1,6 +1,5 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface Props {
   recipes: { slug: string; attributes: Attributes }[];
@@ -11,7 +10,7 @@ const Page: NextPage<Props> = ({ recipes }) => (
     {recipes.map(({ slug, attributes: { title, description, thumbnail } }) => (
       <Link href={`recipes/${slug}`} key={slug}>
         <a>
-          <Image src={`/img/${thumbnail}`} layout="responsive" objectFit="scale-down" width="600" height="400" alt="" />
+          <img src={`/img/${thumbnail}`} width="600" height="400" alt="" />
           <h2>{title}</h2>
           {description && <p>{description}</p>}
         </a>
